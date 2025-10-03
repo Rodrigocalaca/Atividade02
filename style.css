@@ -18,3 +18,19 @@ h2 {
   padding: 32px 24px;
 }
 #agenda ul { line-height: 1.9; }
+body { background: var(--bg); }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: var(--text);
+}
+
