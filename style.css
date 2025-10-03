@@ -8,3 +8,25 @@ html, body {
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
 }
+
+body { background: var(--bg); }
+
+h2 {
+  color: blue;
+  padding-bottom: 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: var(--text);
+}
+
